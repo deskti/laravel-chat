@@ -1,12 +1,12 @@
 <?php
 
-namespace Musonza\Chat\Messages;
+namespace Deskti\Chat\Messages;
 
 use Eloquent;
-use Musonza\Chat\Conversations\Conversation;
-use Musonza\Chat\Eventing\EventGenerator;
-use Musonza\Chat\Chat;
-use Musonza\Chat\Notifications\MessageNotification;
+use Deskti\Chat\Conversations\Conversation;
+use Deskti\Chat\Eventing\EventGenerator;
+use Deskti\Chat\Chat;
+use Deskti\Chat\Notifications\MessageNotification;
 
 class Message extends Eloquent
 {
@@ -23,7 +23,7 @@ class Message extends Eloquent
 
     public function conversation()
     {
-        return $this->belongsTo('Musonza\Chat\Conversations\Conversation', 'conversation_id');
+        return $this->belongsTo('Deskti\Chat\Conversations\Conversation', 'conversation_id');
     }
 
     /**

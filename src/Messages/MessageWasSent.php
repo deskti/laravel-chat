@@ -1,8 +1,8 @@
 <?php
 
-namespace Musonza\Chat\Messages;
+namespace Deskti\Chat\Messages;
 
-use Musonza\Chat\Notifications\MessageNotification;
+use Deskti\Chat\Notifications\MessageNotification;
 
 class MessageWasSent
 {

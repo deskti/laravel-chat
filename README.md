@@ -17,13 +17,13 @@ composer require musonza/chat
 Add the service provider to your `config\app.php` the providers array
 
 ```
-Musonza\Chat\ChatServiceProvider
+Deskti\Chat\ChatServiceProvider
 ```
 
 You can use the facade for shorter code. Add this to your aliases:
 
 ```
-'Chat' => Musonza\Chat\Facades\ChatFacade::class to your `config\app.php`
+'Chat' => Deskti\Chat\Facades\ChatFacade::class to your `config\app.php`
 ```
 
 The class is bound to the ioC as chat

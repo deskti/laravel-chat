@@ -1,13 +1,13 @@
 <?php
 
-namespace Musonza\Chat;
+namespace Deskti\Chat;
 
-use Musonza\Chat\Commanding\CommandBus;
-use Musonza\Chat\Conversations\Conversation;
-use Musonza\Chat\Conversations\ConversationUser;
-use Musonza\Chat\Messages\Message;
-use Musonza\Chat\Messages\SendMessageCommand;
-use Musonza\Chat\Notifications\MessageNotification;
+use Deskti\Chat\Commanding\CommandBus;
+use Deskti\Chat\Conversations\Conversation;
+use Deskti\Chat\Conversations\ConversationUser;
+use Deskti\Chat\Messages\Message;
+use Deskti\Chat\Messages\SendMessageCommand;
+use Deskti\Chat\Notifications\MessageNotification;
 
 class Chat
 {

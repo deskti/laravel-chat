@@ -37,7 +37,7 @@ return array(
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        Musonza\Chat\ChatServiceProvider::class,
+        Deskti\Chat\ChatServiceProvider::class,
 
     ],
 
@@ -85,7 +85,7 @@ return array(
         'View' => Illuminate\Support\Facades\View::class,
 
 
-        'Chat' => Musonza\Chat\Facades\ChatFacade::class,
+        'Chat' => Deskti\Chat\Facades\ChatFacade::class,
     ],
 
 );

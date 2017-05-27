@@ -1,9 +1,9 @@
 <?php
 
-namespace Musonza\Chat\Messages;
+namespace Deskti\Chat\Messages;
 
-use Musonza\Chat\Commanding\CommandHandler;
-use Musonza\Chat\Eventing\EventDispatcher;
+use Deskti\Chat\Commanding\CommandHandler;
+use Deskti\Chat\Eventing\EventDispatcher;
 
 class SendMessageCommandHandler implements CommandHandler
 {

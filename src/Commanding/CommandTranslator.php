@@ -1,6 +1,6 @@
 <?php
 
-namespace Musonza\Chat\Commanding;
+namespace Deskti\Chat\Commanding;
 
 use Exception;
 

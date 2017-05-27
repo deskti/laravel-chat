@@ -1,6 +1,6 @@
 <?php
 
-namespace Musonza\Chat\Eventing;
+namespace Deskti\Chat\Eventing;
 
 use Illuminate\Events\Dispatcher;
 use Illuminate\Log\Writer;

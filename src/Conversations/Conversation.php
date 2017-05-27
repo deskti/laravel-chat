@@ -1,10 +1,10 @@
 <?php
 
-namespace Musonza\Chat\Conversations;
+namespace Deskti\Chat\Conversations;
 
 use Eloquent;
-use Musonza\Chat\Chat;
-use Musonza\Chat\Notifications\MessageNotification;
+use Deskti\Chat\Chat;
+use Deskti\Chat\Notifications\MessageNotification;
 
 class Conversation extends Eloquent
 {
@@ -27,7 +27,7 @@ class Conversation extends Eloquent
      */
     public function messages()
     {
-        return $this->hasMany('Musonza\Chat\Messages\Message', 'conversation_id')->with('sender');
+        return $this->hasMany('Deskti\Chat\Messages\Message', 'conversation_id')->with('sender');
     }
 
     /**

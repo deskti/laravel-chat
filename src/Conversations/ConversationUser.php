@@ -1,6 +1,6 @@
 <?php
 
-namespace Musonza\Chat\Conversations;
+namespace Deskti\Chat\Conversations;
 
 use Eloquent;
 
@@ -10,6 +10,6 @@ class ConversationUser extends Eloquent
 
     public function conversation()
     {
-        return $this->belongsTo('Musonza\Chat\Conversations\Conversation', 'conversation_id');
+        return $this->belongsTo('Deskti\Chat\Conversations\Conversation', 'conversation_id');
     }
 }

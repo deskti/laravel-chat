@@ -1,12 +1,12 @@
 <?php
 
-namespace Musonza\Chat\Notifications;
+namespace Deskti\Chat\Notifications;
 
 use Eloquent;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Musonza\Chat\Chat;
-use Musonza\Chat\Conversations\Conversation;
-use Musonza\Chat\Messages\Message;
+use Deskti\Chat\Chat;
+use Deskti\Chat\Conversations\Conversation;
+use Deskti\Chat\Messages\Message;
 
 class MessageNotification extends Eloquent
 {
@@ -25,7 +25,7 @@ class MessageNotification extends Eloquent
 
     public function message()
     {
-        return $this->belongsTo('Musonza\Chat\Messages\Message', 'message_id');
+        return $this->belongsTo('Deskti\Chat\Messages\Message', 'message_id');
     }
 
     /**

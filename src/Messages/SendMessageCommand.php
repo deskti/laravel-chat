@@ -1,6 +1,6 @@
 <?php
 
-namespace Musonza\Chat\Messages;
+namespace Deskti\Chat\Messages;
 
 class SendMessageCommand
 {

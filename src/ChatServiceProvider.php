@@ -1,6 +1,6 @@
 <?php
 
-namespace Musonza\Chat;
+namespace Deskti\Chat;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -27,7 +27,7 @@ class ChatServiceProvider extends ServiceProvider
     private function registerChat()
     {
         $this->app->bind('chat', function () {
-            return $this->app->make('Musonza\Chat\Chat');
+            return $this->app->make('Deskti\Chat\Chat');
         });
     }
 
