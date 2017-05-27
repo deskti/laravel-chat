@@ -1,0 +1,26 @@
+{
+    "name": "deskti/laravel-chat",
+    "description": "Laravel chat package",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "chat",
+        "messaging",
+        "conversation"
+    ],
+    "authors": [
+        {
+            "name": "Marcos Moraes",
+            "email": "socramjunio@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+          "Musonza\\Chat\\": "src/"
+        }
+    }
+}
