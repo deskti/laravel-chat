@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/musonza/chat.svg?branch=master)](https://travis-ci.org/musonza/chat)
-[![Downloads](https://img.shields.io/packagist/dt/musonza/chat.svg?style=flat-square)](https://packagist.org/packages/musonza/chat)
 ## Chat 
 
 This package allows you to add a chat system to your Laravel 5 application
@@ -11,7 +9,7 @@ Obs: Chat copiado do musonza/chat apenas para o uso pessoal da Deskti
 From the command line, run:
 
 ```
-composer require musonza/chat
+composer require laravel-chat
 ```
 
 Add the service provider to your `config\app.php` the providers array
