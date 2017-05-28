@@ -9,7 +9,7 @@ Obs: Chat copiado do musonza/chat apenas para o uso pessoal da Deskti
 From the command line, run:
 
 ```
-composer require laravel-chat
+composer require deskti/laravel-chat
 ```
 
 Add the service provider to your `config\app.php` the providers array
