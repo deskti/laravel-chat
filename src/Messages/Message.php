@@ -10,7 +10,7 @@ use Deskti\Chat\Notifications\MessageNotification;
 
 class Message extends Eloquent
 {
-    protected $fillable = ['body', 'user_id', 'type'];
+    protected $fillable = ['body', 'user_id', 'type', 'conversation_id'];
 
     protected $table = 'messages';
 

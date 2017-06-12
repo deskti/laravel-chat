@@ -31,6 +31,15 @@ class Conversation extends Eloquent
     }
 
     /**
+     * Total messages
+     * @return integer
+     */
+    public function getTotalMessagesAttribute()
+    {
+        return $this->hasMany('Deskti\Chat\Messages\Message', 'conversation_id')->count();
+    }
+
+    /**
      * Get recent user messages for each conversation
      *
      * @param      integer   $userId

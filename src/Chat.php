@@ -126,6 +126,13 @@ class Chat
         return $messages;
     }
 
+    public function messagesConversationsInUser($userId)
+    {
+        return ConversationUser::where('user_id',$userId)
+            ->with('conversation')
+            ->with('messages');
+    }
+
     /**
      * Get messages in a conversation
      *
