@@ -49,6 +49,11 @@ class Message extends Eloquent
         return $this;
     }
 
+    public function notifications()
+    {
+        return $this->hasMany(MessageNotification::class);
+    }
+
     /**
      * Deletes a message
      *
